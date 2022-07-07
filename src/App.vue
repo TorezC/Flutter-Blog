@@ -1,9 +1,11 @@
 <template>
+
   <BlogList />
+
 </template>
 
 <script>
-import BlogList from './pages/BlogList.vue'
+import BlogList from './pages/BlogList.vue';
 
 export default {
   name: 'App',

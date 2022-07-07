@@ -41,9 +41,9 @@
       </div>
     </div>
     <div class="bottom">
-    <div >
+    <div class="bottom-join">
       <h2>Join our Team of Writers</h2>
-      <h4>On dasdas, writers earn a living doing what they love. Getting started is easy. Just pay a one time $25 fee and everything is ready to go.</h4>
+      <h4 style="color: #6E6E6E;">On dasdas, writers earn a living doing what they love. Getting started is easy. Just pay a one time $25 fee and everything is ready to go.</h4>
       <button>JOIN US</button>
     </div>
     </div>
@@ -119,9 +119,26 @@ export default {
   width: 75%;
 }
 .bottom{
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.bottom-join{
+  width: 50%;
+}
+.bottom-join > h2{
+  text-align: center;
+  font-size: 32px;
+}
+.bottom-join > h4 {
+  text-align: center;
+  font-size: 18px;
+}
+.bottom-join > button{
+  width: 177px;
+  height: 45px;
+  background-color: black;
+  color: white;
 }
 </style>
